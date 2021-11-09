@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="fun.js"></script>
+<head>
+<body>
+    <div class="menu">
+        <span>
+            <a href="../index.html">back</a>
+        </span>
+    </div>
+
+<h1>SHOVEL</h1>
+        <img id="bigpic" src="bigpic" />
+
+    <button onclick="picture()">show</button>
+    <button onclick="myFunction()">Click me</button>
+<body>
+
+    <button onclick = "gfg_Run()"> 
+        Change background to grey
+    </button>
+
+    <button onclick = "gfg_Run2()"> 
+    Change background back
+</button>
+<script>
+        function changeColor(color) {
+            document.body.style.background = color;
+        }
+        
+        function gfg_Run() {
+            changeColor('grey');
+            el_down.innerHTML = "Background Color changed";
+        } 
+</script>   
+
+<script>
+    function changeColor(color) {
+        document.body.style.background = color;
+    }
+    
+    function gfg_Run2() {
+        changeColor('white');
+        el_down.innerHTML = "Background Color changed";
+    } 
+</script>   
+
